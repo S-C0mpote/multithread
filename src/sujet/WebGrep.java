@@ -10,7 +10,7 @@ public class WebGrep {
 	
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// Initialize the program using the options given in argument
-		if(args.length == 0) Tools.initialize("-cT --threads=5 Nantes https://fr.wikipedia.org/wiki/Nantes");
+		if(args.length == 0) Tools.initialize("-cT --threads=100 Nantes https://fr.wikipedia.org/wiki/Nantes");
 		else Tools.initialize(args);
 
 		// TODO Just do it!
